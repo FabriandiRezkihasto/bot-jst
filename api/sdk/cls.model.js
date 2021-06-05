@@ -1,4 +1,4 @@
- const tf = require('@tensorflow/tfjs-node');
+const tf = require('@tensorflow/tfjs-node');
 
 function normalized(data){ // i & r
     i = (data[0] - 12.585) / 6.813882
